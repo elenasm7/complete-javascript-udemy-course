@@ -6,7 +6,7 @@
 //     console.log(i);
 // }
 
-// var elena = ['ELena', 'Morais', 1995, 'Data Scientist', false];
+var elena = ['Elena', 'Morais', 1995, 'Data Scientist', false];
 
 // for (var i = 0; i < elena.length; i++){
 //     console.log(elena[i]);
@@ -30,6 +30,10 @@
 //     console.log(elena[i]);
 // }
 
+for (var i = elena.length - 1; i >= 0;i--){
+    // if (typeof elena[i] !== 'string') continue;
+    console.log(elena[i]);
+}
 
 
 
