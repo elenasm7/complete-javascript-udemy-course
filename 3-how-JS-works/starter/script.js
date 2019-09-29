@@ -54,23 +54,23 @@
 // Example to show the differece between execution stack and scope chain
 
 
-var a = 'Hello!';
-first();
+// var a = 'Hello!';
+// first();
 
-function first() {
-    var b = 'Hi!';
-    second();
+// function first() {
+//     var b = 'Hi!';
+//     second();
 
-    function second() {
-        var c = 'Hey!';
-        third()
-    }
-}
+//     function second() {
+//         var c = 'Hey!';
+//         third()
+//     }
+// }
 
-function third() {
-    var d = 'John';
-    console.log(d);
-}
+// function third() {
+//     var d = 'John';
+//     console.log(d);
+// }
 
 
 
